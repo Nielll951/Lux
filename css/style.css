@@ -12,6 +12,10 @@ a {
    text-decoration: none;
 }
 
+ul {
+   list-style: none;
+}
+
 .container {
    width: 1220px;
    padding: 0 10px;
@@ -258,4 +262,51 @@ body {
    margin-bottom: auto;
 }
 
-.rent__item-text {}
+.benefits {
+   padding: 100px 0;
+}
+
+.benefits__title {
+   font-family: 'Fira Sans', sans-serif;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 29px;
+   margin-bottom: 50px;
+}
+
+.benefits__items {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.benefits__list {
+   width: 300px;
+}
+
+.benefits__list-item {
+   margin-bottom: 27px;
+   padding-right: 26px;
+   position: relative;
+   text-align: right;
+}
+
+.benefits__list-item::after {
+   content: "";
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   background: #332208;
+   right: 0;
+}
+
+.benefits__images {}
+
+.benefits__content {
+   width: 300px;
+}
+
+.benefits__text {}
+
+.video-popup {}
