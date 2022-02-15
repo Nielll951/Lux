@@ -37,12 +37,6 @@ body {
    height: 100px;
 }
 
-.logo {}
-
-.logo__link {}
-
-.menu {}
-
 .menu__list {
    display: flex;
 }
@@ -77,7 +71,7 @@ body {
 }
 
 .top {
-   margin-bottom: 100px;
+   padding-bottom: 100px;
 }
 
 .top__content {
@@ -149,10 +143,6 @@ body {
    height: 16px;
 }
 
-.top__slider-item {}
-
-.top__slider-imgages {}
-
 .top__slider-text {
    font-family: 'Fira Sans', sans-serif;
    font-weight: 500;
@@ -195,10 +185,6 @@ body {
    transform: scale(1.25);
 }
 
-.top__item-img {}
-
-.top__item-text {}
-
 .top__links {
    padding-right: 80px;
 }
@@ -211,3 +197,36 @@ body {
 .top__link+.top__link {
    margin-left: 20px;
 }
+
+.rent {
+   padding-top: 100px;
+}
+
+.rent__inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+.rent__content {
+   width: 300px;
+}
+
+.rent__title {
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 24px;
+   line-height: 29px;
+   font-weight: 500;
+   margin-bottom: 30px;
+}
+
+.rent__text {}
+
+.application-btn {}
+
+.rent__item {}
+
+.rent__item-num {}
+
+.rent__item-title {}
+
+.rent__item-text {}
