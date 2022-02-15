@@ -219,14 +219,43 @@ body {
    margin-bottom: 30px;
 }
 
-.rent__text {}
+.rent__text {
+   margin-bottom: 20px;
+}
 
-.application-btn {}
+.rent__text+.rent__text {
+   margin-bottom: 40px;
+}
 
-.rent__item {}
+.rent .application-btn {
+   display: inline-block;
+}
 
-.rent__item-num {}
+.rent__item {
+   display: flex;
+   flex-direction: column;
+   min-height: 350px;
+   border: 1px solid #332208;
+   width: 250px;
+   padding: 0 35px 20px;
+   text-align: center;
+   justify-content: space-around;
+}
 
-.rent__item-title {}
+.rent__item-num {
+   font-family: 'Fira Sans', sans-serif;
+   font-weight: 500;
+   font-size: 96px;
+   line-height: 115px;
+   opacity: 0.05;
+}
+
+.rent__item-title {
+   font-family: 'Fira Sans', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+   margin-bottom: auto;
+}
 
 .rent__item-text {}
