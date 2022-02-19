@@ -20,6 +20,10 @@ button {
    cursor: pointer;
 }
 
+input {
+   outline: none;
+}
+
 .container {
    width: 1220px;
    padding: 0 10px;
@@ -105,6 +109,7 @@ body {
 }
 
 .application-btn {
+   display: inline-block;
    text-transform: uppercase;
    color: #fefefe;
    background: #C5AC2D;
@@ -113,7 +118,8 @@ body {
    border: 1px solid transparent;
 }
 
-.application-btn:hover {
+.application-btn:hover,
+.feedback__btn:hover {
    background: #fefefe;
    color: #C5AC2D;
    border: 1px solid #C5AC2D;
@@ -331,8 +337,6 @@ body {
    margin-right: 155px;
 }
 
-.benefits__images {}
-
 .benefits__content {
    width: 300px;
    text-align: right;
@@ -355,6 +359,7 @@ body {
    text-align: center;
    display: inline-block;
    position: relative;
+   transition: all .5s;
 }
 
 .video-popup::before {
@@ -365,6 +370,10 @@ body {
    background-image: url('../images/video-btn.svg');
    top: 12px;
    left: 34px;
+}
+
+.video-popup:hover {
+   background: #a36d1a;
 }
 
 .reviews {
@@ -458,4 +467,40 @@ body {
    font-weight: 400;
    font-size: 16px;
    line-height: 19px;
+   transition: all .5s;
+   border: 1px solid transparent;
 }
+
+.footer {
+   padding: 100px 0 24px;
+   background-color: #332208;
+}
+
+.footer__top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 21px;
+}
+
+.menu__list {}
+
+.menu__item {}
+
+.menu__list-link {}
+
+.phone {}
+
+.footer__social {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer__social-item {}
+
+.footer__social-link {
+   margin: 0 15px;
+}
+
+.footer__social-img {}
