@@ -569,9 +569,14 @@ body {
    .benefits__text+.benefits__text {
       width: 100%;
    }
+
+   .footer .menu {
+      display: none;
+   }
 }
 
 @media (max-width: 860px) {
+
    .menu {
       order: 1;
    }
@@ -622,16 +627,38 @@ body {
    .rent__item {
       margin: 30px;
    }
+
+   .feedback__images {
+      display: none;
+   }
+
+   .footer,
+   .feedback,
+   .reviews,
+   .benefits,
+   .rent {
+      padding: 50px 0;
+   }
 }
 
 @media (max-width: 656px) {
+   .top {
+      padding-bottom: 50px;
+   }
+
+   .top__content {
+      padding-top: 0;
+   }
+
    .rent__content {
       text-align: center;
+      margin-bottom: 10px;
    }
 
    .rent__item {
       width: 100%;
       min-height: 245px;
+      margin: 15px;
    }
 
    .rent__item-title {
@@ -658,6 +685,16 @@ body {
       margin: 20px;
    }
 
+   .top__links {
+      padding-top: 30px;
+   }
+
+   .rent,
+   .benefits,
+   .reviews {
+      padding: 30px 0;
+   }
+
    .benefits__images {
       width: 70%;
    }
@@ -680,6 +717,58 @@ body {
    .benefits__list-item::after {
       right: auto;
       left: 0;
+   }
+
+   .application-btn {
+      margin-bottom: 15px;
+   }
+
+   .benefits__title {
+      margin-bottom: 30px;
+   }
+}
+
+@media (max-width: 450px) {
+   .top__title {
+      font-size: 40px;
+      line-height: 52px;
+   }
+
+   .top__text {
+      margin: 0 auto 40px;
+   }
+
+   .benefits__list-item {
+      margin-bottom: 17px;
+   }
+
+   .rent__item {
+      margin: 10px;
+   }
+
+   .reviews__title {
+      margin-bottom: 30px;
+   }
+
+   .reviews__item {
+      padding: 30px 20px;
+      min-height: 230px;
+   }
+
+   .reviews__slider .slick-dots {
+      margin-top: 20px;
+   }
+
+   .feedback {
+      padding: 35px 0
+   }
+
+   .footer__top {
+      flex-direction: column;
+   }
+
+   .footer .phone {
+      margin-top: 30px;
    }
 }
 
@@ -709,8 +798,47 @@ body {
    .top__link+.top__link {
       margin-left: 0;
    }
+}
 
-   .rent__item {
-      margin: 30px 0;
+@media (max-width: 360px) {
+   .top {
+      padding-bottom: 20px;
+   }
+
+   .top__heading {
+      padding: 25px 0 25px;
+   }
+
+   .top__title {
+      font-size: 32px;
+      line-height: 42px;
+   }
+
+   .top__item {
+      margin: 10px;
+   }
+
+   .top__links {
+      padding-top: 20px;
+   }
+
+   .rent__title {
+      margin-bottom: 20px;
+   }
+
+   .rent__text {
+      margin-bottom: 15px;
+   }
+
+   .rent__text+.rent__text {
+      margin-bottom: 25px;
+   }
+
+   .footer {
+      padding: 30px 0;
+   }
+
+   .footer .phone {
+      margin-top: 15px;
    }
 }
